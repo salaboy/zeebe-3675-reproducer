@@ -1,7 +1,7 @@
 const zb = require("zeebe-node");
 const uuid = require("uuid");
 
-const NUM_MSGS = 1500;
+const NUM_MSGS = 3000;
 const zbc = new zb.ZBClient();
 
 const instanceId = uuid.v4();
